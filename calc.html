@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <script defer src="calc.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="outline">
+        <div class="screen">
+            <div class="calculation"></div>
+            <div class = "ans"></div>
+        </div>
+        <div class="buttons">
+            <div class="numbers">
+                <button class="No a7" onclick="handleClick('7')">7</button>
+                <button class="No a8" onclick="handleClick('8')">8</button>
+                <button class="No a9" onclick="handleClick('9')">9</button>
+                <button class="No a4" onclick="handleClick('4')">4</button>
+                <button class="No a5" onclick="handleClick('5')">5</button>
+                <button class="No a6" onclick="handleClick('6')">6</button>
+                <button class="No a1" onclick="handleClick('1')">1</button>
+                <button class="No a2" onclick="handleClick('2')">2</button>
+                <button class="No a3" onclick="handleClick('3')">3</button>
+                <button class="No a0" onclick="handleClick('0')">0</button>
+                <button class="No ac" onclick="reset()">AC</button>
+                <button class="sg =" onclick="answer()">=</button>
+            </div>
+            <div class="sign">
+                <button class="sg +" onclick="handleClick('+')">+</button>
+                <button class="sg -" onclick="handleClick('-')">-</button>
+                <button class="sg *" onclick="handleClick('x')">x</button>
+                <button class="sg /" onclick="handleClick('/')">/</button>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
